@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yokai House Tattoo | San Diego Japanese &amp; Custom Tattoo Studio</title>
+  <meta name="description" content="Yokai House is a San Diego tattoo studio specializing in Japanese irezumi, neo-Japanese, blackwork and fine-line custom tattoos. Book a consultation today." />
+  <meta name="theme-color" content="#0d0b0a" />
+  <meta property="og:title" content="Yokai House Tattoo — San Diego" />
+  <meta property="og:description" content="Spirits in ink. Japanese irezumi, neo-Japanese, blackwork and fine-line tattoos in San Diego." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700;800&family=Space+Grotesk:wght@400;500;600&family=Zen+Antique&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Reusable SVG symbols -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="oni" viewBox="0 0 200 200">
+        <path d="M38 62 L22 10 L66 44 Z" fill="currentColor"/>
+        <path d="M162 62 L178 10 L134 44 Z" fill="currentColor"/>
+        <path d="M100 34 C150 34 172 70 170 112 C168 160 136 188 100 188 C64 188 32 160 30 112 C28 70 50 34 100 34 Z" fill="currentColor"/>
+        <path d="M52 86 Q76 70 92 92 Q72 100 52 86 Z" fill="var(--bg, #0d0b0a)"/>
+        <path d="M148 86 Q124 70 108 92 Q128 100 148 86 Z" fill="var(--bg, #0d0b0a)"/>
+        <circle cx="76" cy="88" r="5" fill="var(--gold, #d9a441)"/>
+        <circle cx="124" cy="88" r="5" fill="var(--gold, #d9a441)"/>
+        <path d="M48 70 Q72 54 94 74" stroke="var(--bg, #0d0b0a)" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path d="M152 70 Q128 54 106 74" stroke="var(--bg, #0d0b0a)" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path d="M92 104 Q100 124 108 104" stroke="var(--bg, #0d0b0a)" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <path d="M56 136 Q100 120 144 136 Q132 170 100 170 Q68 170 56 136 Z" fill="var(--bg, #0d0b0a)"/>
+        <path d="M64 138 L72 156 L80 136 Z M120 136 L128 156 L136 138 Z" fill="var(--paper, #efe6d4)"/>
+        <path d="M86 132 L90 142 L94 131 Z M106 131 L110 142 L114 132 Z" fill="var(--paper, #efe6d4)"/>
+      </symbol>
+      <symbol id="kitsune" viewBox="0 0 200 200">
+        <path d="M40 20 L78 70 L46 88 Z" fill="currentColor"/>
+        <path d="M160 20 L122 70 L154 88 Z" fill="currentColor"/>
+        <path d="M100 52 C140 52 166 76 166 104 C166 130 132 176 100 188 C68 176 34 130 34 104 C34 76 60 52 100 52 Z" fill="currentColor"/>
+        <path d="M52 34 L72 64 L56 74 Z M148 34 L128 64 L144 74 Z" fill="var(--vermilion, #d83a2b)"/>
+        <path d="M56 104 Q72 92 90 106 Q72 112 56 104 Z" fill="var(--bg, #0d0b0a)"/>
+        <path d="M144 104 Q128 92 110 106 Q128 112 144 104 Z" fill="var(--bg, #0d0b0a)"/>
+        <path d="M100 70 L94 92 L100 98 L106 92 Z" fill="var(--vermilion, #d83a2b)"/>
+        <path d="M66 82 Q80 72 92 86 M134 82 Q120 72 108 86" stroke="var(--vermilion, #d83a2b)" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <circle cx="100" cy="166" r="6" fill="var(--bg, #0d0b0a)"/>
+        <path d="M86 150 Q100 160 114 150" stroke="var(--bg, #0d0b0a)" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M56 128 Q70 138 74 154 M144 128 Q130 138 126 154" stroke="var(--vermilion, #d83a2b)" stroke-width="4" fill="none" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="lantern" viewBox="0 0 100 160">
+        <rect x="34" y="4" width="32" height="12" rx="2" fill="#1b1512"/>
+        <rect x="30" y="140" width="40" height="12" rx="2" fill="#1b1512"/>
+        <ellipse cx="50" cy="78" rx="44" ry="64" fill="currentColor"/>
+        <g stroke="rgba(0,0,0,.28)" stroke-width="2" fill="none">
+          <path d="M8 50 Q50 58 92 50"/><path d="M6 66 Q50 74 94 66"/>
+          <path d="M6 82 Q50 90 94 82"/><path d="M6 98 Q50 106 94 98"/>
+          <path d="M10 114 Q50 122 90 114"/>
+        </g>
+        <text x="50" y="92" text-anchor="middle" font-family="Zen Antique, serif" font-size="34" fill="#1b1512">妖</text>
+      </symbol>
+      <symbol id="wave" viewBox="0 0 120 60">
+        <path d="M0 60 A30 30 0 0 1 60 60 A30 30 0 0 1 120 60" fill="none" stroke="currentColor" stroke-width="3"/>
+        <path d="M10 60 A20 20 0 0 1 50 60 M70 60 A20 20 0 0 1 110 60" fill="none" stroke="currentColor" stroke-width="3"/>
+        <path d="M20 60 A10 10 0 0 1 40 60 M80 60 A10 10 0 0 1 100 60" fill="none" stroke="currentColor" stroke-width="3"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <a class="brand" href="#top" aria-label="Yokai House home">
+      <span class="brand-mark" aria-hidden="true">妖</span>
+      <span class="brand-text">Yokai House<small>Tattoo · San Diego</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+    <nav id="nav-links" class="nav-links">
+      <a href="#styles">Styles</a>
+      <a href="#artists">Artists</a>
+      <a href="#bestiary">Flash</a>
+      <a href="#process">Process</a>
+      <a href="#visit">Visit</a>
+      <a class="btn btn-sm" href="#book">Book</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-sun" aria-hidden="true"></div>
+      <div class="lanterns" aria-hidden="true">
+        <svg class="lantern l1"><use href="#lantern"/></svg>
+        <svg class="lantern l2"><use href="#lantern"/></svg>
+        <svg class="lantern l3"><use href="#lantern"/></svg>
+      </div>
+      <div class="hero-inner">
+        <p class="eyebrow reveal">North Park · San Diego, CA</p>
+        <h1 class="hero-title reveal">
+          <span class="kanji" aria-hidden="true">妖怪の家</span>
+          <span class="line">Spirits</span>
+          <span class="line">in <em>Ink.</em></span>
+        </h1>
+        <p class="hero-sub reveal">
+          Custom Japanese irezumi, neo-Japanese, blackwork and fine-line tattoos —
+          drawn by hand, built to last a lifetime, and haunted in the best way.
+        </p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="#book">Book a Consultation</a>
+          <a class="btn btn-ghost" href="#bestiary">See the Flash</a>
+        </div>
+      </div>
+      <svg class="hero-oni" aria-hidden="true"><use href="#oni"/></svg>
+      <div class="waves" aria-hidden="true"></div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Irezumi</span><i>✺</i><span>Oni</span><i>✺</i><span>Kitsune</span><i>✺</i><span>Koi</span><i>✺</i><span>Hannya</span><i>✺</i><span>Ryū</span><i>✺</i><span>Tengu</span><i>✺</i><span>Bakeneko</span><i>✺</i>
+        <span>Irezumi</span><i>✺</i><span>Oni</span><i>✺</i><span>Kitsune</span><i>✺</i><span>Koi</span><i>✺</i><span>Hannya</span><i>✺</i><span>Ryū</span><i>✺</i><span>Tengu</span><i>✺</i><span>Bakeneko</span><i>✺</i>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="eyebrow reveal">The House</p>
+          <h2 class="reveal">Where old legends<br/>meet <span class="accent">Pacific salt air.</span></h2>
+          <p class="reveal">
+            In Japanese folklore, <em>yōkai</em> are the spirits that live in the in-between —
+            mischievous, fierce, protective, strange. Yokai House was built on that idea:
+            a private, appointment-first studio in San Diego where centuries-old tattoo tradition
+            meets modern technique and a Southern California soul.
+          </p>
+          <p class="reveal">
+            Every piece starts as a conversation and a hand-drawn design. No copy-paste, no
+            rush jobs — just bold lines, smooth shading, and tattoos that read from across the room
+            and still reward a close look.
+          </p>
+          <ul class="stats reveal">
+            <li><strong data-count="12">0</strong><span>Years tattooing</span></li>
+            <li><strong data-count="4">0</strong><span>Resident artists</span></li>
+            <li><strong data-count="100">0</strong><span>% Custom work</span></li>
+          </ul>
+        </div>
+        <div class="about-art reveal" aria-hidden="true">
+          <div class="frame">
+            <svg class="about-kitsune"><use href="#kitsune"/></svg>
+            <div class="stamp">家</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STYLES -->
+    <section class="styles section" id="styles">
+      <div class="container">
+        <p class="eyebrow reveal">What We Do</p>
+        <h2 class="reveal">Four paths. One spirit.</h2>
+        <div class="style-grid">
+          <article class="style-card reveal">
+            <span class="num">01</span>
+            <span class="jp" aria-hidden="true">入墨</span>
+            <h3>Traditional Irezumi</h3>
+            <p>Full sleeves, back pieces and bodysuits rooted in Edo-period composition — wind bars, waves, peonies and the beasts that ride them.</p>
+          </article>
+          <article class="style-card reveal">
+            <span class="num">02</span>
+            <span class="jp" aria-hidden="true">新和</span>
+            <h3>Neo-Japanese</h3>
+            <p>Classic subjects reimagined with saturated color, heavier contrast and a little SoCal swagger. Koi that look like they could bite.</p>
+          </article>
+          <article class="style-card reveal">
+            <span class="num">03</span>
+            <span class="jp" aria-hidden="true">黒墨</span>
+            <h3>Blackwork</h3>
+            <p>Bold, graphic, all black. Sumi-e brush textures, ornamental patterns and dark-folklore pieces that age like fine steel.</p>
+          </article>
+          <article class="style-card reveal">
+            <span class="num">04</span>
+            <span class="jp" aria-hidden="true">細線</span>
+            <h3>Fine Line</h3>
+            <p>Delicate single-needle work — tiny spirits, botanical studies and script that whispers instead of shouts.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BESTIARY / FLASH -->
+    <section class="bestiary section" id="bestiary">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal">The Bestiary</p>
+            <h2 class="reveal">Pick your spirit.</h2>
+          </div>
+          <p class="reveal muted">Every yōkai means something. Tap a card to read its legend — then claim it as flash or let us build a custom piece around it.</p>
+        </div>
+        <div class="filters reveal" role="tablist" aria-label="Filter flash">
+          <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="chip" data-filter="protector" role="tab" aria-selected="false">Protectors</button>
+          <button class="chip" data-filter="trickster" role="tab" aria-selected="false">Tricksters</button>
+          <button class="chip" data-filter="water" role="tab" aria-selected="false">Water</button>
+        </div>
+        <div class="flash-grid" id="flash-grid"><!-- populated by script.js --></div>
+      </div>
+    </section>
+
+    <!-- ARTISTS -->
+    <section class="artists section" id="artists">
+      <div class="container">
+        <p class="eyebrow reveal">The Residents</p>
+        <h2 class="reveal">Meet the hands behind the ink.</h2>
+        <div class="artist-grid">
+          <article class="artist reveal">
+            <div class="artist-portrait" style="--hue: 6"><span>鬼</span></div>
+            <h3>Artist One</h3>
+            <p class="role">Founder · Traditional Irezumi</p>
+            <p>Large-scale Japanese work, back pieces and bodysuits. Books 3–4 months out.</p>
+            <a href="#book" class="link">Request this artist →</a>
+          </article>
+          <article class="artist reveal">
+            <div class="artist-portrait" style="--hue: 38"><span>狐</span></div>
+            <h3>Artist Two</h3>
+            <p class="role">Neo-Japanese · Color</p>
+            <p>Saturated color, koi, dragons and modern takes on old legends.</p>
+            <a href="#book" class="link">Request this artist →</a>
+          </article>
+          <article class="artist reveal">
+            <div class="artist-portrait" style="--hue: 200"><span>墨</span></div>
+            <h3>Artist Three</h3>
+            <p class="role">Blackwork · Sumi-e</p>
+            <p>Brushy, graphic black and grey. Ornamental and dark-folklore pieces.</p>
+            <a href="#book" class="link">Request this artist →</a>
+          </article>
+          <article class="artist reveal">
+            <div class="artist-portrait" style="--hue: 330"><span>花</span></div>
+            <h3>Artist Four</h3>
+            <p class="role">Fine Line · Botanical</p>
+            <p>Single-needle detail, small spirits, florals and lettering.</p>
+            <a href="#book" class="link">Request this artist →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process section" id="process">
+      <div class="container">
+        <p class="eyebrow reveal">The Ritual</p>
+        <h2 class="reveal">From idea to healed.</h2>
+        <ol class="steps">
+          <li class="reveal"><span class="step-n">壱</span><h3>Inquire</h3><p>Send your idea, placement, size and reference photos through the booking form.</p></li>
+          <li class="reveal"><span class="step-n">弐</span><h3>Consult</h3><p>We talk flow, symbolism and budget — in person or over video. A deposit locks your date.</p></li>
+          <li class="reveal"><span class="step-n">参</span><h3>Design</h3><p>Your artist hand-draws the piece and refines it with you before the needle ever touches skin.</p></li>
+          <li class="reveal"><span class="step-n">四</span><h3>Tattoo &amp; Heal</h3><p>Session day, then a detailed aftercare plan and free touch-ups within six months.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="quote">
+      <svg class="quote-oni" aria-hidden="true"><use href="#oni"/></svg>
+      <blockquote class="reveal">
+        “A tattoo is a spirit you agree to carry.<br/>Choose one worth the weight.”
+        <cite>— House saying</cite>
+      </blockquote>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq">
+      <div class="container faq-grid">
+        <div>
+          <p class="eyebrow reveal">Good to Know</p>
+          <h2 class="reveal">Questions,<br/>answered.</h2>
+        </div>
+        <div class="faq-list">
+          <details class="reveal">
+            <summary>Do you take walk-ins?</summary>
+            <p>We're appointment-first, but we post open flash days on Instagram. When the lanterns are lit, walk-ins are welcome for flash.</p>
+          </details>
+          <details class="reveal">
+            <summary>How much does a tattoo cost?</summary>
+            <p>Our shop minimum is $150. Larger pieces are quoted by the session or by the piece after your consultation. Deposits go toward your final session.</p>
+          </details>
+          <details class="reveal">
+            <summary>How old do I need to be?</summary>
+            <p>18+ with a valid government-issued photo ID, per California law. No exceptions.</p>
+          </details>
+          <details class="reveal">
+            <summary>Can you cover up or rework an old tattoo?</summary>
+            <p>Absolutely. Japanese and blackwork styles are fantastic for cover-ups. Send a clear photo of the existing tattoo with your inquiry.</p>
+          </details>
+          <details class="reveal">
+            <summary>How should I prepare for my session?</summary>
+            <p>Sleep well, eat a solid meal, hydrate, and skip alcohol the night before. Wear clothes that give easy access to the placement.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section class="book section" id="book">
+      <div class="container book-grid">
+        <div class="book-copy">
+          <p class="eyebrow reveal">Summon Us</p>
+          <h2 class="reveal">Book your<br/><span class="accent">consultation.</span></h2>
+          <p class="reveal">Tell us about the spirit you want to carry. We reply to every inquiry within 2–3 business days.</p>
+          <div class="book-note reveal">
+            <span class="dot"></span> Books are currently <strong>open</strong> for winter sessions.
+          </div>
+        </div>
+        <form class="book-form reveal" id="book-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="field">
+            <label for="style">Style</label>
+            <select id="style" name="style">
+              <option>Traditional Irezumi</option>
+              <option>Neo-Japanese</option>
+              <option>Blackwork</option>
+              <option>Fine Line</option>
+              <option>Flash from the Bestiary</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="placement">Placement &amp; size</label>
+            <input id="placement" name="placement" type="text" placeholder="e.g. left forearm, ~6 in" />
+          </div>
+          <div class="field full">
+            <label for="idea">Your idea</label>
+            <textarea id="idea" name="idea" rows="5" required placeholder="Tell us the story, the yōkai, the vibe…"></textarea>
+          </div>
+          <label class="check full">
+            <input type="checkbox" name="age" required /> <span>I confirm I am 18 or older.</span>
+          </label>
+          <button class="btn full" type="submit">Send Inquiry</button>
+          <p class="form-status full" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="visit section" id="visit">
+      <div class="container visit-grid">
+        <div class="visit-card reveal">
+          <p class="eyebrow">Find the House</p>
+          <h2>San Diego, CA</h2>
+          <address>
+            1234 University Ave<br/>
+            North Park, San Diego, CA 92104
+          </address>
+          <p><a class="link" href="tel:+16195550123">(619) 555-0123</a><br/>
+             <a class="link" href="mailto:hello@yokaihouse.com">hello@yokaihouse.com</a></p>
+          <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=North+Park+San+Diego+CA">Get Directions</a>
+        </div>
+        <div class="visit-card reveal">
+          <p class="eyebrow">Hours</p>
+          <ul class="hours" id="hours">
+            <li data-day="1"><span>Monday</span><span>Closed</span></li>
+            <li data-day="2"><span>Tuesday</span><span>12 – 8 pm</span></li>
+            <li data-day="3"><span>Wednesday</span><span>12 – 8 pm</span></li>
+            <li data-day="4"><span>Thursday</span><span>12 – 8 pm</span></li>
+            <li data-day="5"><span>Friday</span><span>12 – 10 pm</span></li>
+            <li data-day="6"><span>Saturday</span><span>11 am – 10 pm</span></li>
+            <li data-day="0"><span>Sunday</span><span>11 am – 6 pm</span></li>
+          </ul>
+          <p class="muted small">By appointment. Flash days announced on Instagram.</p>
+        </div>
+        <div class="visit-map reveal" aria-hidden="true">
+          <div class="map-art">
+            <span class="pin">妖</span>
+            <span class="map-label l-a">Balboa Park</span>
+            <span class="map-label l-b">North Park</span>
+            <span class="map-label l-c">Pacific Ocean</span>
+            <span class="map-label l-d">Downtown</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">妖</span>
+        <span class="brand-text">Yokai House<small>Tattoo · San Diego</small></span>
+      </div>
+      <nav class="socials" aria-label="Social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="TikTok">TikTok</a>
+        <a href="mailto:hello@yokaihouse.com">Email</a>
+      </nav>
+      <p class="muted small">© <span id="year"></span> Yokai House Tattoo. Licensed by the County of San Diego. 18+ only.</p>
+    </div>
+  </footer>
+
+  <!-- Legend modal -->
+  <dialog class="legend" id="legend">
+    <button class="legend-close" aria-label="Close">×</button>
+    <div class="legend-art" id="legend-art"></div>
+    <div class="legend-body">
+      <p class="eyebrow" id="legend-jp"></p>
+      <h3 id="legend-title"></h3>
+      <p id="legend-text"></p>
+      <p class="legend-meaning"><strong>Carries:</strong> <span id="legend-meaning"></span></p>
+      <a class="btn" href="#book" id="legend-book">Claim this spirit</a>
+    </div>
+  </dialog>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>
