@@ -1,26 +1,18 @@
-# Yokai House Tattoo — San Diego
+# Yokai House — Tattoo, San Diego
 
-Static website for Yokai House, a Japanese-inspired custom tattoo studio in San Diego.
+Minimal, portfolio-first static site for Yokai House tattoo studio. Booking goes through Instagram DM, with email as an option.
+
+## Edit content
+Everything shown on the site is in **`site.config.js`**: name, Instagram handle, address, hours, intro, artists, portfolio photos and FAQ. Placeholder values are marked `TODO`.
+
+- **Portfolio:** save photos from the shop's Instagram into `assets/work/` and add them to `work: [...]`. Until then the grid shows empty frames that link to Instagram.
+- **Artists:** add entries to `artists: [...]`. The section stays hidden while the list is empty.
+- **Email:** set `email` to show an "Email us" button next to "DM on Instagram".
 
 ## Run locally
-No build step. Open `index.html` in a browser, or serve the folder:
-
 ```sh
 python3 -m http.server 8000
 ```
 
-## Files
-- `index.html` — page markup and the inline SVG artwork (oni, kitsune, lanterns)
-- `styles.css` — theme tokens, layout, animations, responsive rules
-- `script.js` — flash "Bestiary" cards and legend modal, filters, mobile nav, scroll reveals, booking form
-- `assets/favicon.svg`
-
-## Placeholder content to replace before launch
-- Address, phone, email (`hello@yokaihouse.com`) and hours in the **Visit** section
-- Artist names/bios in the **Artists** section
-- Instagram / TikTok links in the footer
-- Stats ("12 years", "4 artists"), shop minimum, and flash prices
-- The booking form opens the visitor's email app (`mailto:`). Swap it for Formspree, Netlify Forms, or a booking tool if you'd like submissions collected directly.
-
 ## Deploy
-Works as-is on GitHub Pages, Netlify, Vercel or any static host.
+Static files only. Works on GitHub Pages, Netlify, Vercel or any static host.
